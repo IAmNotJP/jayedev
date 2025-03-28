@@ -1,0 +1,28 @@
+div.container {
+    background: rgba(68, 58, 63, 0.6);
+}
+div.container p {
+    margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.navbar {
+    background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    margin:auto;
+    overflow: hidden;
+    max-width: 30%;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    padding: 14px 16px
+}
