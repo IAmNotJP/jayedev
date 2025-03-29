@@ -1,18 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 div.container {
     background: rgba(68, 58, 63, 0.6);
+    margin: 48px 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(210, 206, 208);
 }
 div.container p {
     margin: 5%;
-  font-weight: bold;
-  color: #000000;
 }
 
 .navbar {
-    background-color: darkslategrey;
     display: flex;
     align-items: center;
     font-family: sans-serif;
-    margin:auto;
+    margin: 48px 20%;
     overflow: hidden;
     max-width: 30%;
 }
@@ -25,4 +33,8 @@ div.container p {
     float: left;
     text-align: center;
     padding: 14px 16px
+}
+
+.nav-link:hover {
+    color:lightsteelblue;
 }

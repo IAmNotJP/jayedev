@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LinksComponent } from './links/links.component';
 import { PhotosComponent } from './photos/photos.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 const routeConfig: Routes = [
 {
@@ -16,8 +17,11 @@ const routeConfig: Routes = [
 {
     path: 'photos',
     component: PhotosComponent
+},
+{
+    path: 'projects',
+    component: ProjectsComponent
 }
-
 ];
 
 export default routeConfig;
