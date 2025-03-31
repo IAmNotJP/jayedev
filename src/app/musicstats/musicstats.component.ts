@@ -10,12 +10,12 @@ import { LastfmService } from '../lastfm.service';
 })
 
 export class MusicstatsComponent {
-
-  user: any;
+  data: any[] = [];
   
   constructor(private lastfmService: LastfmService) {
-    this.lastfmService.getUserInfo().subscribe((data)=> {
-      this.user =  data;
+    this.lastfmService.getUserInfo().subscribe((data: any)=> {
+      this.data =  data;
+      console.log(data);
     });
   }
 
