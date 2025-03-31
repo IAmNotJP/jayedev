@@ -10,7 +10,7 @@ import { environment } from '../environments/environment';
 
 export class LastfmService {
 
-  private apiKey = environment.lastfm_api_key;
+  private apiKey = '70c8d151f58e2e726945b75afcfeddb';
   private apiUrl = 'http://ws.audioscrobbler.com/2.0';
 
   constructor(private http: HttpClient) { }
