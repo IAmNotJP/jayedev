@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { LinksComponent } from './links/links.component';
 import { PhotosComponent } from './photos/photos.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { MusicstatsComponent } from './musicstats/musicstats.component';
 
 const routeConfig: Routes = [
 {
@@ -21,6 +22,10 @@ const routeConfig: Routes = [
 {
     path: 'projects',
     component: ProjectsComponent
+},
+{
+    path: 'music',
+    component: MusicstatsComponent
 }
 ];
 

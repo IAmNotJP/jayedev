@@ -16,13 +16,22 @@ div.container p {
     margin: 5%;
 }
 
-.navbar {
+.mailimage{
+    float:right;
+    margin-left: 19%;
+}
+
+
+.navbar{
     display: flex;
     align-items: center;
     font-family: sans-serif;
-    margin: 48px 20%;
     overflow: hidden;
+}
+.navbar-nav{
+    margin: 48px 20%;
     max-width: 30%;
+    float: center;
 }
 
 .nav-link {
