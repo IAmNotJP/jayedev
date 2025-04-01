@@ -1,0 +1,10 @@
+#nowplayingcontainer{
+    background-color: rgb(72, 53, 88);
+    height: 200px;
+    width: 800px;
+    margin: 20px;
+}
+
+#nowplayingimg{
+    size: 30px;
+}
