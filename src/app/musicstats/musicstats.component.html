@@ -4,5 +4,8 @@
         <li><img src={{string}} id="nowplayingimg"> {{nowplaying.name}} - {{nowplaying.artist["#text"]}}</li>
     </div>
     <h3> Recently Played:</h3>
-    <li *ngFor="let track of test ; index as i"> <img src={{albumlist[i]}} >{{track.name}} - {{track.artist["#text"]}}</li>
+    
+    <div class="tracklist" *ngFor="let track of test ; index as i"> 
+        <li><img src={{albumlist[i]}} >{{track.name}} - {{track.artist["#text"]}}</li>
+    </div>
 </div>  

@@ -2,9 +2,20 @@
     background-color: rgb(72, 53, 88);
     height: 200px;
     width: 800px;
-    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tracklist {
+    margin: 100px;
+    background-color: slategrey;
+    height: 80px;
+    text-align: center;
 }
 
 #nowplayingimg{
-    size: 30px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+
 }
