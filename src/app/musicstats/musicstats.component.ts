@@ -20,7 +20,7 @@ export class MusicstatsComponent {
   albumlist: any[] = [];
 
   constructor(private lastfmService: LastfmService) {
-    timer(10000,10000)
+    timer(1000000,1000000)
     .subscribe(()=>{
       this.onTimer();
     });
